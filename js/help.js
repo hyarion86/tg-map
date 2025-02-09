@@ -17,7 +17,7 @@ const shepherd = new Shepherd.Tour({
 
 shepherd.addStep({
   text: [
-    'Input the name of a Tolkien Gateway article here.',
+    'Input the name of a Tolkien Gateway article, then press Enter.',
     'You can compare multiple topics by pressing <kbd>,</kbd> ' +
     '<kbd>Tab</kbd> or <kbd>Enter</kbd> after each one.',
   ],
