@@ -1,5 +1,5 @@
-<h1 align="center">Wikipedia Map</h1>
-<p align="center">A web app for visualizing the connections between Wikipedia pages. Try it at <a href="https://wikipedia.luk.ke/">wikipedia.luk.ke</a>.</p>
+<h1 align="center">Tolkien Gateway Map</h1>
+<p align="center">A web app for visualizing the connections between Tolkien gateway pages. Try it at <a href="https://map.tolkiengateway.net">map.tolkiengateway.net</a>. Based on the Wikipedia map at wikipedia.luk.ke</p>
 
 ![Screenshot of Wikipedia Map](screenshots/wikipedia-map-safari.png)
 
@@ -50,57 +50,7 @@ Hovering the mouse over a node will highlight the path back to the central node:
 This is not necessarily the shortest path back; it is the path that you took to reach the node.
 
 
-## Roadmap
-
-### Stuff I'd like to implement soon(ish)
-
-#### Interface
-- [x] Build a GUI
-  - [x] Change input method to something other than prompt
-  - [x] Allow starting anew without refreshing page
-  - [x] Create small info button that explains the project, controls, etc.
-    - [x] Render this README into the help dialog
-    - [x] The area with the network should contain instructions when it is blank
-    - [x] Create a more thorough help dialog explaining controls, etc. which also includes the README
-  - [x] Add a "Random Article" button
-  - [x] Create a *better* help menu that pops up when a user first visits.
-  - [ ] Make the tour better
-    - [ ] Show users how to expand and trace back nodes. To do this, create a floating invisible div over a start node. Then, pin the Shepherd step to this div.
-    - [ ] Don't allow users to advance to the next step until they've followed the instruction (entering articles, pressing Go)
-    - [x] Disappear the info box when the tour is started
-- [x] Allow inputting of multiple starts
-  - [x] Build an interface for this
-- [ ] Implement saving + sharing
-  - [x] Saving a graph
-  - [x] Loading a graph from an id
-  - [x] Loading a graph from a URL parameter
-  - [ ] Implement sharing UI
-
-#### Interaction
-- [x] Hovering over a node will show a traceback of how you arrived at that node, kind of like breadcrumbs
-- [x] mobile optimization: Implement a separate set of controls for touch devices
-- [x] On both desktop and mobile, double-click (or tap) a node to open the corresponding wikipedia page in a new tab
-- [ ] Improve efficiency of highlighting the nodes
-
-
-#### Technical
-- [x] `.gitignore`-ify the libraries directory, no reason for it to be in here when I didn't write that stuff
-- [x] Remove dependance on some external libraries:
-	- [x] jQuery
-	- [x] wordwrap
-	- [x] tinycolor
-- [x] Move JavaScript to separate files from HTML
-- [x] Make API requests asynchronous
-- [ ] Add some kind of build system to make building local copies and contributing easier
-
-### Stuff it might be nice to implement sometime in the far future
-- [ ] Autocomplete names of Wikipedia articles in the top bar
-- [ ] Make the size of nodes reflect the number of backlinks
-- [ ] Support for other languages
-- [ ] Support for other MediaWiki wikis
-
-
 ## Credits
-This project is powered by Wikipedia, whose wealth of information makes this project possible.
+This project is powered by Tolkien Gateway.
 
 The presentation of the graph is powered by [`vis.js`](https://visjs.org).
