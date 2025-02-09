@@ -1,5 +1,5 @@
 /* global getNormalizedId */
-const base = 'https://en.wikipedia.org/w/api.php';
+const base = 'https://tolkiengateway.net/w/api.php';
 
 const domParser = new DOMParser();
 
