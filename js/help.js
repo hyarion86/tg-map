@@ -17,7 +17,7 @@ const shepherd = new Shepherd.Tour({
 
 shepherd.addStep({
   text: [
-    'Input the name of a Wikipedia article here.',
+    'Input the name of a Tolkien Gateway article here.',
     'You can compare multiple topics by pressing <kbd>,</kbd> ' +
     '<kbd>Tab</kbd> or <kbd>Enter</kbd> after each one.',
   ],
@@ -39,7 +39,7 @@ shepherd.addStep({
 shepherd.addStep({
   text: [
     "Once you're done, submit your query.",
-    'Wikipedia Map will create a node for each input topic.',
+    'Tolkien Gateway Map will create a node for each input topic.',
   ],
   attachTo: '#submit bottom',
   buttons: [
@@ -64,8 +64,8 @@ shepherd.addStep({
 shepherd.addStep({
   text: [
     'Click a node to expand it.',
-    'Expanding a node creates a new node for each Wikipedia article linked in the first paragraph of the article whose node you clicked.',
-    '<img src="https://images.prismic.io/luke/db049805-b070-43c5-a412-d44c5ac3a4d7_wikipedia-expand.gif" alt="Expanding a Wikipedia Map node" style="width: 410px; height: 410px;" />',
+    'Expanding a node creates a new node for each Tolkien Gateway article linked in the first paragraph of the article whose node you clicked.',
+    '<img src="https://images.prismic.io/luke/db049805-b070-43c5-a412-d44c5ac3a4d7_wikipedia-expand.gif" alt="Expanding a Tolkien Gateway Map node" style="width: 410px; height: 410px;" />',
   ],
   buttons: [
     {
