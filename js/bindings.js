@@ -74,9 +74,9 @@ function bind() {
 
   // Bind GitHub button
   const ghbutton = document.getElementById('github');
-  ghbutton.addEventListener('click', () => window.open('https://github.com/controversial/wikipedia-map', '_blank'));
+  ghbutton.addEventListener('click', () => window.open('https://github.com/hyarion86/tg-map', '_blank'));
 
   // Bind About button
   const aboutButton = document.getElementById('about');
-  aboutButton.addEventListener('click', () => window.open('https://github.com/controversial/wikipedia-map/blob/master/README.md#usage', '_blank'));
+  aboutButton.addEventListener('click', () => window.open('https://github.com/hyarion86/tg-map/blob/master/README.md#usage', '_blank'));
 }
